@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header h2 {
+    color: #cad6e1;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 10px;
+}
+.header p {
+    color: #cad6e1;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+}
+.container {
+    width: 400px;
+    min-height: 700px;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: star;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #1c3855;
+}
+
+.main {
+    height: 520px;
+}
+
+
+.emp-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px;
+    margin: 10px 0;
+    padding-top: 5px;
+    background-color: #f2f5f731;
+    box-shadow: 1px 1px 1px black;
+}
+ .emp-wrapper:hover {
+    background-color: #0f1b28;
+ }
+ .emp-wrapper h3 {
+    color: #f8f1f1;
+ }
+.emp-wrapper .img img {
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+    border-radius: 50%;
+
+}
+.emp-wrapper .emp-detail {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding-top: 5px;
+
+}
+.emp-wrapper .emp-detail p {
+   color:#cad6e1
+
+}
+.emp-wrapper .emp-detail p a{
+   cursor: pointer;
+
+}
+.emp-wrapper .emp-detail p a:hover {
+   color:#f3f6f9
+
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.button-wrapper button {
+   padding: 10px 20px;
+   color: #cad6e1;
+   background-color: rgb(179, 15, 15);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   box-shadow: 1px 1px 1px black;
+   transition: transform ease-in 0.2s;
+   
+}
+.button-wrapper button:active {
+    background-color: rgb(91, 13, 13);
+    transform: scale(0.9);
+}
+
+
+.pageContainer {
+    margin: 20px;
+}
+
+@media screen and (max-width : 400px) {
+    .container {
+        width: 350px;
+    }
+}
